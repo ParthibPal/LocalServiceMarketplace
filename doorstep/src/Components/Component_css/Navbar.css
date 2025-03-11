@@ -1,0 +1,130 @@
+
+.Nav-wrapper nav {
+    background-color: rgb(3, 48, 72);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    
+    height: 8.5vh;
+    width: 100%;
+    font-size: 80%;
+    border: none;
+    position: fixed;
+    color: white;
+    z-index: 10000;
+    top: 0;
+    padding: 0;
+}
+
+.links {
+    display: flex;
+    width: 50%;
+    text-decoration: none;
+    margin: auto;
+    overflow: hidden;
+}
+
+.links label {
+    cursor: pointer;
+    padding-inline: 30px;
+    font-size: 140%;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    color: whitesmoke;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.links a:hover{
+    /* transform: scale(1.1);  */
+    color:#f1c40f; 
+}
+
+.components {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.logo {
+    height: 60%;
+    margin: auto;
+}
+
+.logo img {
+    padding-inline: 0.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.cart-logo{
+    display: flex;
+    gap: 0.5rem;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.cart-logo:hover{
+    color: #f1c40f ;
+
+}
+
+
+
+
+.search-box input{
+    padding: 1%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: black;
+    font-size: 100%;
+    width: 92%;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    background-color: #fffdfd;
+    padding: 0.5% 1%;
+    border-radius: 50px;
+    margin-right: 1%;
+    width: 25%;
+}
+
+.search-icon{
+    height: 15px;
+    margin-right: -100px;
+}
+
+.components-login-btn {
+    margin: auto;
+    padding: .6rem 3rem;
+    background-color: rgb(3, 48, 72);
+    border: 2px solid white ;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    /* border: none; */
+    border-radius: 25px;
+    transition: .2s linear;
+}
+.components-login-btn:hover{
+    cursor: pointer;
+    border: 2px solid #f1c40f ;
+    background-color: #f1c40f;
+    color: rgb(3, 48, 72);
+    /* font-weight: 500; */
+}
+
+.components .nav-avatar{
+    height: 80%;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+
+}
+
